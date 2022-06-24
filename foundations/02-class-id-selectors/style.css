@@ -1,0 +1,19 @@
+.odd {
+    background-color: #f08080;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#div-one {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.bigger-font {
+    font-size: 24px;
+}
+
+#div-two {
+    background-color: hsl(120, 73%, 75%);
+    font-size: 24px;
+    font-weight: bold;
+}
