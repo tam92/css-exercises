@@ -12,6 +12,11 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  /* Elementos del menú en fila */
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
 
 .profile-image {
@@ -45,4 +50,16 @@ a {
 
 ul {
   list-style-type: none;
+
+  /* Links en fila */
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.left-side, .right-side {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
