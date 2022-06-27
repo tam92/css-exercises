@@ -24,3 +24,24 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Solución */
+
+/* Centrar el título */
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.planta {
+  max-width: 200px;
+}
+
+body {
+  text-align: center;
+}
