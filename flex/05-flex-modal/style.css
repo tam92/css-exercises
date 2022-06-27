@@ -20,6 +20,12 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* Modificaciones */
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10px;
 }
 
 .icon {
@@ -33,6 +39,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Modificaciones */
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -63,4 +71,34 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+
+/* --Nuevas modificaciones-- */
+
+.content {
+  display: flex;
+  align-items: flex-end;
+}
+
+.botones {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.header {
+  font-weight: bolder;
+  font-size: larger;
+  margin-bottom: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.window {
+  display: flex;
+  flex-direction: column;
 }
